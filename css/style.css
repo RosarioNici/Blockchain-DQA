@@ -1,0 +1,363 @@
+/* header rules */
+/* #region */
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.title-color {
+    color: #3754fc;
+}
+
+.content-color {
+    color: grey;
+}
+
+.yellow-logo {
+    background-color: #3054f3;
+}
+
+#logo-seqa {
+    width: 150px;
+}
+
+.hamb-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #6964fe;
+}
+
+.menu {
+    border: 1px solid #3054f3;
+    width: 55px;
+
+}
+
+/* jumbo */
+/* #region */
+
+.jumbo {
+    background: url(../img/italian-pasta-ingredients-white-background-with-space-text_23-2147925938.webp) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.jumbo-cert {
+    background: url(../img/Progettosenzatitolo1.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbo-obbiettivi {
+    background: url(../img/perche-devi-definire-con-assoluta-chiarezza-gli-obiettivi-finanziari-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbo-lab {
+    background: url(../img/header-bg-dataclinica-laboratorio-analisi-cliniche-001.webp) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbo-form {
+    background: url(../img/Testata_news_14_07.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* #endregion */
+
+.jumbo-content {
+    color: white;
+}
+
+.down-arrow {
+    width: 15px;
+
+}
+
+.lens {
+    width: 25px;
+}
+
+.hidden-bar {
+    display: none;
+}
+
+.dropdown-menu {
+    transform: translate(0px, 220px) !important;
+    border-radius: 0%;
+    border: 0px;
+}
+
+.dropdown-item {
+    text-align: center;
+}
+
+.link-drop {
+    color: black;
+}
+
+.bullet-blue {
+
+    color: hsl(207.8, 100%, 41%);
+}
+
+.nav-button:hover {
+    border: 0px;
+}
+
+.nav-button {
+    border: none;
+}
+
+.search {
+    width: 200px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: circle #0e6eec;
+}
+
+.icon-large {
+    font-size: xx-large;
+    color: #6964fe;
+}
+
+.img-fluid-header {
+    height: 720px;
+    transition: 1.5s;
+}
+
+.img-fluid-header:hover {
+    transform: scale(0.7);
+}
+
+.icon-logo {
+    width: 80px;
+}
+
+.img-ps {
+    width: 200px;
+}
+
+.social-icon {
+    padding-right: 5px;
+    font-size: large;
+    color: #6964fe;
+}
+
+/* #endregion */
+/* button */
+/* #region */
+
+
+.jumbo-button {
+    color: #6964fe;
+    /* color: #fdb70a; */
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.jumbo-button-serv {
+    width: 250px;
+    height: 80px;
+    color: #6964fe;
+    /* color: #fdb70a; */
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.button-marketing {
+    border: none;
+}
+
+/* #endregion */
+/* main rules */
+/* #region */
+.aside {
+    width: 25%;
+}
+
+.card {
+    border: none !important;
+}
+
+.midle-img-bg {
+    background-color: #2b50f7cb;
+    height: 300px;
+
+}
+
+.color-blu {
+    color: white;
+}
+
+.midle-img {
+    background-color: white;
+    height: 140px;
+    width: 100%;
+}
+
+.midle-hidden-img {
+    height: 140px;
+    width: 300px;
+}
+
+.midle {
+    transition: 1.5s;
+}
+
+.midle:hover {
+    transform: scale(1.5);
+}
+
+
+.bg-violet {
+    background-color: #6964fe79;
+    border-radius: 25px;
+}
+
+.forum-button {
+    width: 80px;
+    background-color: #ffd56c8f;
+    color: #6964fe;
+    border: 1px solid #6964fe;
+}
+
+.card-main {
+    position: relative;
+
+}
+
+
+
+.icon-large-main {
+
+    position: absolute;
+    left: 45%;
+    top: 46%;
+}
+
+.icon-large {
+    display: none;
+}
+
+.bullet-on {
+    list-style-type: disc;
+
+}
+
+.color-v {
+    color: #6964fe;
+}
+
+.icon-large-cont {
+    font-size: large;
+    color: #6964fe;
+}
+
+.social-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.title-color-y {
+    color: #fdb70a;
+}
+
+
+.color-title {
+    color: #0e6eec;
+    font-size: 50px;
+}
+
+#copy {
+    font-size: large;
+}
+
+
+/* #endregion */
+/* footer rules */
+/* #region */
+.footer-addres {
+    color: white;
+    background-color: rgba(87, 86, 86, 0.815);
+}
+
+
+.img-fluid-img {
+    width: 350px;
+    height: 190px;
+    border-radius: 20px;
+    transition: 1.5s;
+}
+
+.img-fluid-img:hover {
+    transform: scale(1.2);
+}
+
+/* Set the size of the div element that contains the map */
+/* #map {
+    height: 400px;
+    /* The height is 400 pixels */
+/* width: 100%; */
+/* The width is the width of the web page */
+/* }
+
+.maps-section {
+    background-color: #ffe7ad;
+} */
+
+/* #endregion */
+/* media query */
+/* #region */
+
+
+@media screen and (min-width:992px) {
+
+    .img-diagonal,
+    .text-thumb {
+        display: inherit;
+    }
+
+    .social-icon {
+        font-size: xx-large;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hambu-menu {
+        display: none;
+    }
+
+    .hidden-bar {
+        display: inherit;
+    }
+
+    .flex-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo-footer-ps {
+        width: 150px;
+    }
+}
+
+
+/* #endregion */
