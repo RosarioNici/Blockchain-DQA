@@ -201,6 +201,12 @@ ul {
 
 }
 
+button {
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+}
+
 .color-blu {
     color: white;
 }
